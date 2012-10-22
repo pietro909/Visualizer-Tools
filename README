@@ -1,2 +1,9 @@
+copy all *.py files into blender-2.6x-xxxx-xxxx/2.64/scripts/addons/visualizer_tool
+activate the addon under preferences->addons->materials
 
-todo
+TODO:
+ - update viztool.branchmenu (at the moment will not show the current selection)
+ - improve subobject assignment (need to be more fast)
+
+Thank you,
+Pietro
