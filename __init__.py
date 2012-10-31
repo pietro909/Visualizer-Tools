@@ -87,7 +87,14 @@ class OBJECT_PT_MaterialByElement(bpy.types.Panel) :
         row = box.row(align=True)
         row.operator('viztool.createcamerafromview', text = "Free")
         row.operator('viztool.createtargetcamera', text = "Targeted")
-
+        
+        #objects tool
+        box = layout.box()
+        row = box.row()
+        row.label("Selected objects to:")
+        row = box.row(align=True)
+        row.operator('viztool.displaybox', text = "Box")
+        row.operator('viztool.displaytextured', text = "Textured")
         #material slots tools
         box = layout.box()
         col = box.column()
